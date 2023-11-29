@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-28T16:39:06 EST" name="Default suite" finished-at="2023-11-28T16:39:16 EST" duration-ms="9733">
+  <suite started-at="2023-11-28T21:55:29 EST" name="Default suite" finished-at="2023-11-28T21:55:44 EST" duration-ms="14146">
     <groups>
     </groups>
-    <test started-at="2023-11-28T16:39:06 EST" name="Default test" finished-at="2023-11-28T16:39:16 EST" duration-ms="9733">
-      <class name="org.google.automation.abc.testcases.SignupScenario">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.google.automation.abc.testcases.SignupScenario@3febb011]" started-at="2023-11-28T16:39:06 EST" name="launchBrowser" finished-at="2023-11-28T16:39:13 EST" duration-ms="6884" status="PASS">
+    <test started-at="2023-11-28T21:55:29 EST" name="Default test" finished-at="2023-11-28T21:55:44 EST" duration-ms="14146">
+      <class name="org.google.automation.abc.testcases.LoginScenario2_DDF">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:29 EST" name="launchBrowser" finished-at="2023-11-28T21:55:35 EST" duration-ms="5173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="signupfunc()[pri:0, instance:org.google.automation.abc.testcases.SignupScenario@3febb011]" started-at="2023-11-28T16:39:13 EST" name="signupfunc" finished-at="2023-11-28T16:39:15 EST" duration-ms="2469" status="PASS">
+        <test-method signature="loginfunc(java.lang.String,java.lang.String)[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:35 EST" name="loginfunc" data-provider="staticdata" finished-at="2023-11-28T21:55:35 EST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupfunc -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.google.automation.abc.testcases.SignupScenario@3febb011]" started-at="2023-11-28T16:39:15 EST" name="closeBrowser" finished-at="2023-11-28T16:39:16 EST" duration-ms="302" status="PASS">
+        </test-method> <!-- loginfunc -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:35 EST" name="closeBrowser" finished-at="2023-11-28T21:55:35 EST" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- org.google.automation.abc.testcases.SignupScenario -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:35 EST" name="launchBrowser" finished-at="2023-11-28T21:55:39 EST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginfunc(java.lang.String,java.lang.String)[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:39 EST" name="loginfunc" data-provider="staticdata" finished-at="2023-11-28T21:55:39 EST" duration-ms="551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunc -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:39 EST" name="closeBrowser" finished-at="2023-11-28T21:55:39 EST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:39 EST" name="launchBrowser" finished-at="2023-11-28T21:55:43 EST" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginfunc(java.lang.String,java.lang.String)[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:43 EST" name="loginfunc" data-provider="staticdata" finished-at="2023-11-28T21:55:43 EST" duration-ms="544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunc -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.google.automation.abc.testcases.LoginScenario2_DDF@3febb011]" started-at="2023-11-28T21:55:43 EST" name="closeBrowser" finished-at="2023-11-28T21:55:44 EST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.google.automation.abc.testcases.LoginScenario2_DDF -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

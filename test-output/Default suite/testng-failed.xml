@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.google.automation.abc.testcases.SignupScenario">
+      <class name="org.google.automation.abc.testcases.LoginScenario2_DDF">
         <methods>
           <include name="closeBrowser"/>
-          <include name="signupfunc"/>
+          <include name="loginfunc" invocation-numbers="0 1 2"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- org.google.automation.abc.testcases.SignupScenario -->
+      </class> <!-- org.google.automation.abc.testcases.LoginScenario2_DDF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
